@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(224, 240, 240);
+  .weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .weather_wrapper {
+      border: 1px solid black;
+      padding: 50px 70px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: beige;
+      margin-top: 100px;
+      box-shadow: 10px 5px 5px rgb(19, 106, 128);
+  
+        > div {
+          text-align: center;
+        }
+    }
+  
+  }
+
+  .mode {
+   background-color: beige;
+   border: 1px solid black;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   width: 50px;
+   font-size: 23px;
+   height: 25px;
+   position: absolute;
+   top: 10px;
+   left: 20px;
+
+    .moon {
+    display: none;
+   }
+  }
+  
+}
+
+body
+ .dark {
+  background-color: #f1f1f1;
+  height: 100vh;
+  .weather_wrapper {
+    background-color:rgb(148, 197, 229) ;
+  }
+  .mode {
+    background-color: rgb(148, 197, 229);
+    border: 1px solid white;
+    
+ 
+    .sun {
+     display: none;
+    }
+    .moon {
+      display: flex;
+    }
+   }
+}
